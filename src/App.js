@@ -1,7 +1,8 @@
 
 import './App.css';
-import React from 'react';
 import background from '../src/backgroundimg.jpeg';
+import * as React from 'react';
+//import Button from '@mui/material/Button';
 
 function App() {
   return (
@@ -14,7 +15,9 @@ function App() {
       width:'100vw',
       margin: '0px',
     }}>
-      Hello World
+      <div style={{fontSize: '50px', flex: 1, display: 'flex', alignItems: 'center', justifyContent: 'center', height: '100vh'}}>
+        hiiiii
+      </div>
     </div>
   );
 }
